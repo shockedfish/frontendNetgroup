@@ -10,15 +10,9 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './auth/profile/profile.component';
-import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
-import { BoardUserComponent } from './board-user/board-user.component';
-
 import { authInterceptorProviders } from './auth/_helpers/auth.interceptor';
 import { AuthComponent } from './auth/auth.component';
-import { BoardAdminComponent } from './board-admin/board-admin.component';
-import { UploadExcelComponent } from './actions/upload-excel/upload-excel.component';
-import { DownloadExcelComponent } from './actions/download-excel/download-excel.component';
-import { DownloadPdfComponent } from './actions/download-pdf/download-pdf.component';
+
 
 @NgModule({
   declarations: [
@@ -27,13 +21,7 @@ import { DownloadPdfComponent } from './actions/download-pdf/download-pdf.compon
     RegisterComponent,
     HomeComponent,
     ProfileComponent,
-    BoardAdminComponent,
-    BoardModeratorComponent,
-    BoardUserComponent,
     AuthComponent,
-    UploadExcelComponent,
-    DownloadExcelComponent,
-    DownloadPdfComponent
   ],
   imports: [
     BrowserModule,
